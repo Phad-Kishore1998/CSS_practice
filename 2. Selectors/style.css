@@ -1,0 +1,56 @@
+/* Universal selectors */
+* {
+    font-family: fantasy;
+}
+
+/* Nesting Selectors
+search in 1st article and then find the paragraph to add the property
+*/
+#first > p {
+    color: green
+}
+
+
+/* pseudo selector */
+p:hover {
+    color: black;
+}
+
+body{
+    font-size: large;
+    /*background-color: black;*/
+}
+
+/* 
+Grouping property
+#first{
+    color: red;
+} 
+
+#second{
+    color: red;
+}
+
+//since first and second are having same color so to group we use this ,
+*/
+
+#first, #second{
+    color: blue;
+}
+
+.purple{
+    color: purple;
+    font-family: monospace;
+}
+
+.highlight {
+    background-color: yellow;
+    font-weight: bolder;
+    font-style: italic;
+}
+
+/*
+user agent stylesheet : element css from browser
+element.style = for selected element style
+and checkbox is also present
+*/

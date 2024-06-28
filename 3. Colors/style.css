@@ -1,0 +1,24 @@
+body{
+    font-size: 24px;
+    font-family: Arial;
+    text-align: center;
+    /* Color only two property color and background color */
+    color: white;
+    background-color: #001219;
+    /* mdn has 140 colors of name color
+        hsl: hue saturation lightness 0 to 360 
+        rgb(0,0,0) 0 to 255 in hex code ff till 255
+        a : (alpha) transparency rgba same for hsla
+
+        WebAIM : contrast checker it gives the fail and pass for the contrast
+        for normal text large text.
+        Coolors.co : for contrast checking rating tells about hwo it will look for small and large
+    */
+}
+
+article{
+    background-color: #4a4e69;
+    padding: 40px;
+    margin: 40px;
+    border-radius: 104px;
+}

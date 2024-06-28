@@ -1,0 +1,67 @@
+/* 
+main {
+    
+        For any element requiring border 
+        width of the broder / style of the border / color of the border
+    
+    border: 5px solid brown;
+    width: 50%;  
+    ===>Percentage is used for element corresponding to Parent element 
+}
+
+section {
+    border: 5px dashed green;
+    width: 50%;  
+    ====>Percentage relative to parent 
+} 
+
+*/
+
+/*
+main {
+    
+        View width & view Height: absolute width and its not like percentage
+        as percentage are relative to some thing 
+    
+    border: 5px solid brown;
+    width: 50vw;
+    height: 50vh;
+}
+
+section {
+    border: 5px dashed green;
+    width: 50vw; 
+    ====> Percentage relative to parent 
+    height: 50vh;
+}
+
+*/
+
+/*
+main {
+    border: 5px solid brown;
+    width: 50%; 
+}
+header{
+    font-size: 2em;
+    ====> h1 is under header for when we say 2em then h1 having 2em already 
+    value will be 4em.
+}
+
+section {
+    border: 5px dashed green;
+    width: 50%; 
+}
+*/
+
+/* 
+    Font size should never in specific values
+    always relative ie. in em best
+    em: em is relative to the parent and
+    by defualt parent em 1
+*/
+
+/*
+rem : relative to html
+for font size. 
+*/
