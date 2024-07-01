@@ -1,0 +1,53 @@
+.container {
+    width: 300px;
+    height: 600px;
+    background-color: gainsboro;
+    margin: 100px;
+    color: white;
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+}
+
+.red {
+    position: relative; /*relative to the parent */
+    background-color: red;
+    top: 100px;
+    left: 100px;
+    /* top right left bottom relative to the parent it will move*/
+}
+
+.green {
+    position: absolute;  /*blue wala box bahar aa gaya 
+    green will become relative to parent which is HTML(parent).
+    it will look on propagating to upper elements(parent) to see if anyone is relative 
+    ie. having psoition relative.
+    */
+    background-color: green;
+    bottom: 0px;
+    right: 0px;
+    z-index: 1;
+    /* making green above the fixed blue box
+    more the z-index value more it will be near to user 
+    */
+}
+
+.blue {
+    position: fixed; /* It will fix on the screen */
+    background-color: blue;
+    right: 50px;
+    bottom: 50px;
+}
+
+.purple {
+    position: sticky; /* it will stay sticky till some pixel length and 
+    then its gone after parent is gone*/
+    background-color: purple;
+    top: 0px;
+}
+
+.spacer {
+    height: 300vh;
+}

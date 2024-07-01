@@ -1,0 +1,22 @@
+/* see the computed for the view */
+
+* {
+    margin: 0;
+    padding: 0;
+    /* Overwritting all the margins of element to 0 
+        No extra pixel from browser setting something.
+    */
+
+      /* Box sizing according to the mentioned size and not along with padding and margin px*/
+      box-sizing: border-box;
+      /* not according to content */
+}
+/*Content box*/
+.Box {
+    height: 200px;
+    width: 200px; 
+    border: 20px solid red;
+    padding: 40px 30px 20px 10px; /*top bottom left right*/
+    margin: 40px;
+}
+

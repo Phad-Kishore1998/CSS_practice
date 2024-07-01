@@ -1,0 +1,39 @@
+.container {
+    width: 300px;
+    height: 200px;
+    border: 2px solid red;
+    /* overflow hidden 
+        overflow: hidden;
+    */
+    
+    /* overflow scroll 
+     overflow: scroll;*/
+
+    /* overflow auto handles everything scroll horizontal or vertical */
+    overflow: auto;
+}
+
+
+.img1 {
+    float: right;
+    /* images floats at the left and right words comes to right */
+}
+
+.img2 {
+    float: left;
+}
+
+.container2{
+    width: 400px;
+    height: 400px;
+    border: 2px solid red;
+    /* overflow hidden 
+        overflow: hidden;
+    */
+    
+    /* overflow scroll 
+     overflow: scroll;*/
+
+    /* overflow auto handles everything scroll horizontal or vertical */
+    overflow: auto;
+}

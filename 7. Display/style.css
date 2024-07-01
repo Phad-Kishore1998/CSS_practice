@@ -1,0 +1,43 @@
+/* 
+CSS Display:
+block
+inline
+inline-block
+none
+*/
+
+/* to show the border */
+* {
+    border: 1px solid red;
+    margin: 0;
+    padding: 0; /* whats why ul having li there is no bullet points */
+    box-sizing: border-box;
+}
+
+p {
+    display: inline-block;
+    width: 50%;
+}
+
+ul {
+    list-style: none;
+    text-align: end;
+    padding: 30px;
+    background-color: black;
+    color: white;  /* Text color */
+}
+
+li{
+    display: inline;
+    font-size: large;
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.large-menu {
+    font-size: 30px;
+    padding: 20px;
+    margin: 10px;
+}

@@ -1,0 +1,55 @@
+/* 
+Temproray changes on css:
+
+<h1 style="
+    color: blue;
+    background-color: red;
+    text-align: center;
+">Unlock The Power of Blockchain</h1>
+
+using element.style{ } on the console.
+
+
+
+
+on the link:
+    text-decoration: line-through;
+    text-decoration-line: underline;
+    text-decoration-color: aqua;
+    text-decoration-style: wavy;
+
+
+
+text spacing:
+
+text-indent: 80ox;
+letter-spacing: 0.1rem;
+line-height: 1.6rem;
+
+
+text shadow:
+horizonatal shadow(2px) and vertical shadow 2px
+
+h1 {
+    text-shadow: 2px 2px red;
+    //blur radius also there as thrid parameter.
+    text-shadow: 2px 2px 3px red;
+    //multiple shadows
+    text-shadow: 2px 2px 3px red, 4px 4px 1px blue;
+    //blured text:
+    color: transparent; ( text color)
+    text-shadow: 2px 2px 10px red;
+}
+
+
+font.google.com for all the font family
+@import url(css_url from the website);
+
+WebSafe font:=> By default they are installed in the browsers
+font size: large; :=> we can use rem or large/small/medium
+font width: 100; bold or 100/200 like property also works.
+
+
+font style: italic; etc.
+
+*/
